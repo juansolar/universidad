@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #011;
+}
+
+#buttonInfo{
+    margin-left: 15cm;
+    background-color: red;
+    border: red;
+    width: 20%;
+    height: 100%;
+}
+
+.ingreso, .respuesta{
+    margin-left: 500px;
+    color: #fff;
+}
+
+.seleccion{
+    width: 100px;
+    height: 50px;
+    margin: 80px;
+    margin-top: 40px;
+    margin-left: 4cm;
+}
+
+.botones{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-left: -3cm;
+}
+
+.informacion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    height: 300px;
+    border: 1px solid white;
+}
+#decision{
+    margin-left: 7cm;
+}
+
+#descripcion{
+    margin-left: 4cm;
+}
+
+#descripcion, #decision{
+    color: #fff;
+    font-style: oblique;
+}
+
+.tarjeta{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 3cm;
+    background: #05f;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 255, 0.65);
+    -moz-box-shadow: 0px 10px 15px -5px rgba(0, 0, 255, 0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 255, 0.65);
+    background-size: cover;
+}
+
+.tarjetaInfo, .imagen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    font-size: 120%;
+    font-style: oblique;
+}
+
+.imagen{
+    transform: rotateY(180deg);
+}
+
+.tarjeta:hover{
+    transform: rotateY(180deg);
+}
+
