@@ -1,7 +1,7 @@
 <?php
     include 'ejercicio.php';
 
-    $json = file_get_contents('ejercicios.json');
+    $json = file_get_contents('../accesoDatos/ejercicios.json');
 
     $ejercicios = json_decode($json,true);
 

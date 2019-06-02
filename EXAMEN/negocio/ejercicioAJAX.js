@@ -8,7 +8,7 @@ async function loadDoc(v){
         }
     }
     /*este es un comentario */
-    xhttp.open("GET", "negocio/getEjercicio.php?ejercicio="+v,true);
+    xhttp.open("GET", "../negocio/getEjercicio.php?ejercicio="+v,true);
     xhttp.send();
 }
 
